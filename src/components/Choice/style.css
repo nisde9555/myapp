@@ -1,0 +1,35 @@
+.choice-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.choice-wrapper .content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  grid-auto-flow: row;
+}
+
+.choice-wrapper .content .box {
+  padding: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .choice-wrapper .header {
+    padding: 20px;
+  }
+}
+
+.choice-wrapper .content .box img {
+  height: 50px;
+  width: 50px;
+}
+
+.choice-wrapper .content .box .header {
+  font-size: 18px;
+}
+
+.choice-wrapper .content .box .subheader {
+  font-size: 15px;
+  color: rgba(0,0,0,0.3);
+}

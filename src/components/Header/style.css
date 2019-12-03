@@ -1,0 +1,53 @@
+.header-wrapper {
+  background-image: url(../../assets/images/banner.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.header-wrapper .link .image {
+  animation-name: plane;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+.header-wrapper .link .image:hover {
+  animation-name: planeNone;
+}
+
+@keyframes planeNone {
+  0% { transform: rotate(180deg); }
+  50% {transform: rotate(180deg);}
+  100% {transform: rotate(180deg);}
+}
+
+@keyframes plane {
+  0%   { transform: translateY(0) rotate(180deg); }
+  50%  { transform: translateY(-25px) rotate(180deg); }
+  100% { transform: translateY(0) rotate(180deg); }
+}
+
+@media screen and (min-width: 651px) {
+  .header-wrapper .content {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .header-wrapper .content {
+    height: 200px;
+    padding: 20px;
+  }
+}
+
+.header-wrapper .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-weight: 300;
+}
+
+.header-wrapper .content h2 {
+  font-weight: 400;
+}

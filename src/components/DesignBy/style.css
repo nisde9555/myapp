@@ -1,0 +1,38 @@
+.designBy-wrapper {
+  color: white;
+  background-color: black;
+  padding: 30px 0 5px 0;
+}
+
+.designBy-wrapper p {
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.designBy-wrapper ul {
+  list-style: none;
+  display: block;
+  text-align: right;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.designBy-wrapper ul li {
+  display: inline-block;
+  padding: 15px;
+  opacity: 0.8;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.designBy-wrapper ul li a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  .designBy-wrapper ul {
+    text-align: center;
+  }
+}
