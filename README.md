@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+React static page. Practice grid, flexbox and animations. Link to see: http://nisde9555.github.io/myapp
+
 ## Available Scripts
 
 In the project directory, you can run:
