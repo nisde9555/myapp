@@ -1,5 +1,5 @@
 {
-  "homepage": "http://nisde9555.github.io/my-app",
+  "homepage": "http://nisde9555.github.io/myapp",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -33,6 +33,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.2.0"
   }
 }
